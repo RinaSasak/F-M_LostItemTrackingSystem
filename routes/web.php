@@ -20,3 +20,4 @@ use App\Http\Controllers\WelcomeController;
 
 Route::get('/', [WelcomeController::class, 'index']);
 Route::get('/welcome/second', [WelcomeController::class, 'second']);
+Route::get('/welcome/third', [WelcomeController::class, 'third']);
